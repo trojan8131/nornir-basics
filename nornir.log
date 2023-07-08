@@ -1,0 +1,15 @@
+2023-07-03 10:36:31,401 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run', 'show run | i snmp']} on 7 hosts
+2023-07-03 10:37:59,284 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run', 'show run | i snmp']} on 7 hosts
+2023-07-03 10:39:41,016 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run', 'show run | i snmp']} on 7 hosts
+2023-07-03 10:39:54,686 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run', 'show run | i snmp']} on 7 hosts
+2023-07-03 10:40:17,118 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run', 'show run | i snmp']} on 7 hosts
+2023-07-03 10:43:04,761 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': 'facts'} on 7 hosts
+2023-07-03 10:43:29,449 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': 'interfaces'} on 7 hosts
+2023-07-03 10:43:47,769 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces']} on 7 hosts
+2023-07-03 10:44:40,216 -  nornir.core -     INFO -        run() - Running task 'napalm_ping' with args {'dest': '172.16.138.14'} on 7 hosts
+2023-07-03 10:50:19,727 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show i pint brief'} on 7 hosts
+2023-07-03 10:50:35,296 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip int brief'} on 7 hosts
+2023-07-03 10:51:19,860 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 7 hosts
+2023-07-03 10:51:59,856 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show run'} on 7 hosts
+2023-07-03 10:54:05,263 -  nornir.core -     INFO -        run() - Running task 'multiple_progress_bar' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x10c5fec50>, 'other_bar': <tqdm.std.tqdm object at 0x10788dc10>} on 7 hosts
+2023-07-03 10:54:49,726 -  nornir.core -     INFO -        run() - Running task 'multiple_progress_bar' with args {'napalm_get_bar': <tqdm.std.tqdm object at 0x10ed3efd0>, 'other_bar': <tqdm.std.tqdm object at 0x10ecd48d0>} on 7 hosts
